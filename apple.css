@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav #check {
+    display: none;
+}
+
+nav .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 45px;
+    margin: 0 20px;
+    display: none;
+}
+
+nav .logo{
+    line-height: 45px;
+    margin: 0 0 0 60px;
+}
+
+nav .logo img{
+    width: 17px;
+    height: 17px;
+}
+
+nav ul{
+    float: right;
+    margin: 0 40px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 45px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    opacity: 0.8;
+}
+
+nav ul li a i{
+    font-size: 15px;
+}   
+
+.container{
+    height: 100vh;
+    width: 100%;
+    margin-top: 40px;
+}
+.container .links {
+    margin-top: 20px;
+}
+
+#first-container{
+    background-image: url(/Photos/apple1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#first-container .text{
+    padding: 20px 50px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+#first-container .text a{ 
+    text-decoration: none;
+}
+
+#second-container{
+    background-image: url(/Photos/apple2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#third-container{
+    background-image: url(/Photos/apple3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* first section */
+/* first container */
+
+#first-container .photo-text {
+    position: absolute;
+    height: 150px;
+    width: 500px;
+    margin: 220px 470px;
+    text-align: center;
+}
+
+#first-container .photo-text h2{
+    font-size: 45px;
+}
+
+#first-container .photo-text h5{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#first-container .photo-text a {
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* second container */
+
+#second-container {
+    text-align: center;
+    color: white;
+}
+
+#second-container .photo-text {
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+#second-container .photo-text h2{
+    font-size: 45px;
+}
+
+#second-container .photo-text h5{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#second-container .photo-text a {
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* third container */
+#third-container {
+    text-align: center;
+    color: black;
+}
+
+#third-container .photo-text {
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+#third-container .photo-text h2{
+    font-size: 45px;
+}
+
+#third-container .photo-text h5{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#third-container .photo-text a {
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* main second section */
+.container-1{
+    /* background-color: #0066cc; */
+    width: 100%;
+    height: 100vh;
+    padding: 5px;
+    display: flex;
+}
+
+.container-1 .photo-text-1{
+    background-image: url(/Photos/apple4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-1 .photo-text-1 .links{
+    margin-top: 10px;
+}
+.container-1 .photo-text-1 h2{
+    font-size: 35px;
+    color: white;
+}
+.container-1 .photo-text-1 h5{
+    color: white;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: .016em;
+}
+.container-1 .photo-text-1 h5 img{
+    height: 40px;
+    width: 40px;
+}
+.container-1 .photo-text-1 a{
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.container-1 .photo-text-2{
+    background-image: url(/Photos/apple5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-1 .photo-text-2 .links{
+    margin-top: 10px;
+}
+.container-1 .photo-text-2 h2 img{
+    height: 33px;
+    width: 115px;
+}
+.container-1 .photo-text-2 h5{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: .016em;
+}
+.container-1 .photo-text-2 a{
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.container-1 .photo-text-3{
+    background-image: url(/Photos/apple6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-1 .photo-text-3 .links{
+    margin-top: 10px;
+}
+.container-1 .photo-text-3 h2 img{
+    height: 50px;
+    width: 125px;
+}
+.container-1 .photo-text-3 h5{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: .016em;
+}
+.container-1 .photo-text-3 a{
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.container-1 .photo-text-4{
+    background-image: url(/Photos/apple7.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-1 .photo-text-4 .links{
+    margin-top: 10px;
+}
+.container-1 .photo-text-4 h2 img{
+    height: 50px;
+    width: 125px;
+}
+.container-1 .photo-text-4 h5{
+    color: white;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: .016em;
+}
+.container-1 .photo-text-4 a{
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.container-1 .photo-text-5{
+    background-image: url(/Photos/apple8.png);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-1 .photo-text-5 .links{
+    margin-top: 10px;
+}
+.container-1 .photo-text-5 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.container-1 .photo-text-5 h5{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: .016em;
+}
+.container-1 .photo-text-5 h5 img{
+    height: 30px;
+    width: 205px;
+}
+.container-1 .photo-text-5 a{
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.container-1 .photo-text-6{
+    background-image: url(/Photos/apple9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-1 .photo-text-6 .links{
+    margin-top: 10px;
+}
+.container-1 .photo-text-6 h2{
+    font-size: 35px;
+    color: white;
+}
+.container-1 .photo-text-6 h5{
+    color: white;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: .016em;
+}
+.container-1 .photo-text-6 a{
+    margin: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* crousal */
+
+.crousal {
+    background-image: url(/Photos/apple10.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+    height: 80vh;
+    width: 80%;
+}
+
+.information {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.information .pera {
+    padding: 20px 80px;
+}
+
+.information .pera p {
+    font-size: 12px;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+}
+
+.information .footer-links {
+    margin: 10px 100px;
+    width: 80%;
+    display: flex;
+}
+
+.information .footer-links .shop {
+    width: 20%;
+}
+.information .footer-links .shop .shop-2, .shop-3{
+    margin-top: 40px;
+}
+.information .footer-links .shop p{
+    font-size: 12px;
+    margin: 15px;
+}
+
+.footer-links-1 .pera a{
+    color: #0066cc;
+    text-decoration: none;
+}
+.footer-links-1 .footer-links-2 {
+    display: flex;
+    margin: auto;
+    padding: 0 20px 30px 20px;
+    width: 93%;
+}
+
+.footer-links-1 .footer-links-2 .about-site {
+    padding: 0px 20px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.footer-links-1 .footer-links-2 .about-site-1 {
+    margin-left: auto;
+    font-size: 12px;
+    opacity: 0.7;
+}
+/* @media(max-width: 1150px) {
+    nav #checkbtn{
+        display: block;
+    }
+} */
